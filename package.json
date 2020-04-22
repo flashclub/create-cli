@@ -1,0 +1,33 @@
+{
+  "name": "create-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:flashclub/create-cli.git",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "author": "liangchanglu <liangcl523@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "@babel/runtime-corejs3": "^7.9.2",
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
